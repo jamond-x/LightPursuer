@@ -9,6 +9,12 @@
     <script src="/static/vue.js"></script>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <transition name='fade'>
+            <p v-if='show'>csddsfsd</p>
+        </transition> 
+            <button @click='show = !show'>Toggle</button>
+    </div>
+    <script src="/font_end/src/main.js"> </script>
 </body>
 </html>

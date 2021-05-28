@@ -1,4 +1,8 @@
-const init = () => {
-	// do something
-	console.log("working")
-}
+new Vue(
+	{
+		el:'#app',
+		data:{
+			show:true
+		}
+	}
+)
