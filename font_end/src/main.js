@@ -1,8 +1,1 @@
-new Vue(
-	{
-		el:'#app',
-		data:{
-			show:true
-		}
-	}
-)
+//const { component } = require("vue/types/umd")
